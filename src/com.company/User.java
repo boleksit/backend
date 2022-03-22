@@ -1,19 +1,26 @@
 package src.com.company;
 
-public class User {
+public class User
+{
     private String name;
     private int age;
 
-    public User(String name, int age) {
+    public User(String name, int age)
+    {
         this.name = name;
         this.age = age;
     }
+    public User ()
+    {
 
-    public String getName() {
+    }
+    public String getName()
+    {
         return this.name;
     }
 
-    public int getAge() {
+    public int getAge()
+    {
         return this.age;
     }
 }
